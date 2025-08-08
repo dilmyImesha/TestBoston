@@ -14,30 +14,34 @@ except Exception as e:
 st.markdown("""
     <style>
     body {
-        background-color: #f0f6ff;
+        background-color: #dbefff;
     }
     .main {
-        background-color: #f0f6ff;
+        background-color: #dbefff;
         padding: 20px;
     }
     h1 {
-        color: #1b4f72;
+        color: #1b3a57;
         text-align: center;
         margin-bottom: 30px;
     }
     .stButton>button {
-        background-color: #2980b9;
+        background-color: #4a90e2;
         color: white;
         font-size: 16px;
         padding: 10px 20px;
         border-radius: 8px;
+        border: none;
+    }
+    .stButton>button:hover {
+        background-color: #357abd;
     }
     .prediction-box {
         padding: 20px;
-        background-color: #d6eaf8;
-        border-left: 5px solid #2980b9;
+        background-color: #b3d7ff;
+        border-left: 6px solid #1b4f72;
         border-radius: 10px;
-        color: #154360;
+        color: #0d2c4b;
         font-size: 20px;
         text-align: center;
         margin-top: 30px;
